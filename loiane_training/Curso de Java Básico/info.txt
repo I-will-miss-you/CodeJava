@@ -1,0 +1,187 @@
+
+Formadora: <loiane.training>
+
+Duração:
+	68 Aulas
+	31 Horas
+
+Curso de Java Básico (Java SE): 
+
+Document JAVA: http://docs.oracle.com/javase/8/docs/api/ 
+
+Módulo I:
+	Lógica de programação básica
+	Orientação a Objetos
+	Tratamento de Erros
+
+Outros módulos desse curso:
+	Classes utilitárias que todo desenvolvedor deve saber usar
+	Leitura e criação de arquivos
+	Collections (Estruturas de dados do Java)
+	Interface gráfica com Swing e JavaFX
+	Acesso ao banco de dados
+
+Nível: Iniciante ao Intermediário
+
+01 - INTRODUÇÂO:
+
+#01 – Introdução e Dicas para quem está começando
+Na aula de hoje vamos ter uma introdução do Java e várias dicas para quem começar a programar com a linguagem Java. Vamos falar um pouco sobre o mercado de trabalho também.
+
+#02: Instalando o Java no Windows 10
+Na aula de hoje vamos aprender como instalar o Java no Windows 10. Vamos aprender também como configurar o Java para poder usá-lo nas próximas aulas!
+Essa é uma regravação da aula 02 original.
+
+#03 – Instalando o Java no Ubuntu – Linux
+Na aula de hoje vamos aprender como instalar o Java no Ubuntu. Eu sei que Linux tem várias distribuições, mas Ubuntu é a mais usada entre os desenvolvedores Java, principalmente entre os iniciantes!  A instalação vale para 	Debian também!
+
+#04 – Instalando o Java no Mac OS
+Na aula de hoje vamos aprender como instalar o Java no Mac OS.
+
+
+02 - COMEÇANDO COM JAVA:
+
+#05 – Primeiro Programa em Java
+Na aula de hoje vamos aprender a implementar nosso primeiro programa em Java e também vamos aprender como executar esse programa usando a linha de comando.
+
+#06 – Passando argumentos para o programa 
+Na aula de hoje vamos aprender como passar parâmetros para um programa Java via linha de comando!
+
+#07 – Entendendo os Erros
+Na aula de hoje vamos aprender que errar é humano! E também podemos cometer alguns erros enquanto programamos com Java, o que é normal. O ponto é: o que fazemos para corrigir nosso programa quando esses erros acontecem e que 	tipo de erros podem acontecer!
+
+#08 – Instalando uma IDE (Eclipse e Netbeans)
+Na aula de hoje vamos aprender como instalar e usar 2 das IDEs mais utilizadas no mundo Java: Eclipse e Netbeans. Além de instalar vamos fazer uma review por cada IDE e também fazer um exemplo. A partir dessa aula vamos usar uma 	dessas IDEs para continuar o nosso curso (você escolhe a que você gostar mais!).
+
+#09 – Introdução a Classes e Objetos 
+Na aula de hoje vamos aprender o que significam alguns conceitos da Orientação a Objetos. Mas não se preocupem, essa aula é apenas para entenderem os termos que utilizamos, teremos um módulo apenas sobre Orientação a Objetos 	mais para frente no curso.
+
+
+03 - PROGRAMAÇÃO BÁSICA:
+
+#10 – Introdução a Variáveis 
+Na aula de hoje vamos aprender uma pequena introdução a variáveis no Java, como declarar, sintaxe e boas práticas!
+
+#11 – Tipos Primitivos
+Na aula de hoje vamos aprender quais são os tipos primitivos do Java, dando continuação à aula 10, onde começamos a falar sobre variáveis.
+
+#12 – Lendo dados usando a classe Scanner
+Na aula de hoje vamos aprender como ler dados do teclado usando a classe Scanner. Essa é uma maneira de ler dados, mais para o final do curso vamos ver outras maneiras. O uso da classe Scanner para leitura de dados é mais simples!
+
+#13 – Operadores 
+Na aula de hoje vamos aprender como usar os operadores da linguagem Java!
+
+
+04 - CONTROLES, DECISÕES E LOOPS
+
+#14 – Controle de Decisão: IF – ELSE 
+Na aula de hoje vamos aprender como usar os comandos if, if-else e múltiplos if-else!
+
+#15 – Controle de Decisão com Múltipla Escolha: SWITCH
+Na aula de hoje vamos continuar o assunto de controle de decisão, mas dessa vez usando switch-case!
+
+#16 – Loops – WHILE e DO WHILE 
+Na aula de hoje vamos aprender como usar os loops while (enquanto) e do-while (faça-enquanto).
+
+#17 – Loops – FOR
+Na aula de hoje vamos aprender como usar o loop for, muito, mas muito utilizando no dia a dia dos desenvolvedores.
+
+#18 – Comandos BREAK e CONTINUE
+Na aula de hoje vamos aprender como usar os comandos break e continue! O comando break é mais utilizado para sair de loops, enquanto o continue é um complemento do break, onde diz ao programa para continuar o loop na próxima 	iteração. Ambos podem ser usados com labels (rótulos), que seria um goto, mas é raramente utilizado no Java.
+
+#19 – Vetores (Arrays)
+Na aula de hoje vamos aprender como usar os vetores, também chamados de arrays. Os vetores/arrays são um tipo de estrutura de dados, a mais simples presente em várias linguagens de programação, que guardam uma coleção de dados ordenados.
+
+#20 – Matrizes (Arrays multi-dimensionais)
+Na aula de hoje vamos aprender como usar matrizes. Matrizes de 2 dimensões, 3 dimensões e até matrizes irregulares.
+
+
+05 - FOR EACH E DEBUG DE APLICAÇÕES JAVA
+
+#21 – For Each
+Na aula de hoje vamos aprender como usar os comandos for each, um loop for melhorado que foi adicionado no Java 5.
+
+#22 – Como usar o Debug no Eclipse
+Na aula de hoje vamos aprender como usar os recursos do Eclipse para debugar programas Java. Afinal, tão importante como saber programar é saber debugar também. Podemos usar o debug para nos ajudar a resolver problemas no código ou até mesmo para acompanhar passo a passo um programa que estamos aprendendo!
+
+#23 – Como usar o Debug no Netbeans
+Na aula de hoje vamos aprender como usar os recursos do Netbeans para debugar programas Java. Afinal, tão importante como saber programar é saber debugar também. Podemos usar o debug para nos ajudar a resolver problemas no código ou até mesmo para acompanhar passo a passo um programa que estamos aprendendo!
+
+
+06 - ORIENTAÇÃO À OBJETOS EM JAVA
+
+#24: Conceitos classe, objetos, atributos
+Na aula de hoje vamos aprender como declarar classes, atributos e usar essa informação instanciando objetos no Java
+
+#25: Classes e métodos simples
+Na aula de hoje vamos aprender como declarar e utilizar métodos simples nas classes Java.
+
+#26: Classes e métodos com retorno
+Na aula de hoje vamos aprender como declarar e utilizar métodos Java com retorno!
+
+#27: Classes e métodos com parâmetros
+Na aula de hoje vamos aprender como declarar e utilizar métodos com parâmetros.
+
+#28: Pacotes (packages) e import
+Na aula de hoje vamos aprender como organizar o projeto através de pacotes e o que isso significa para um projeto Java.
+
+#29: Construtores e Código de inicialização
+Na aula de hoje vamos aprender como criar construtores para classes Java, que podem ser utilizados como uma forma de inicializar variáveis java quando instanciamos uma classe.
+
+#30: Palavra chave this
+Na aula de hoje vamos aprender como utilizar a palavra chave this, que é utilizada para fazer referência à própria classe no Java.
+
+#31: Modificadores private e public
+Na aula de hoje vamos aprender como utilizar os modificadores private e public. Vamos aprender também a diferença entre private, public e default (modificador padrão do Java).
+
+#32: Encapsulamento: métodos getters e setters
+Na aula de hoje vamos aprender como acessar atributos do tipo private através de métodos get e como atribuir valor a atributos do tipo private através de métodos set. Esse conceito é chamado de encapsulamento.
+
+#33: Sobrecarga de métodos e construtores (overload)
+Na aula de hoje vamos aprender como criar vários métodos com o mesmo nome (porém com assinatura diferentes – tipo de retorno, quantidade e tipo de parâmetros). Esse conceito é chamado de sobrecarga ou do inglês overload e é um tipo de polimorfismo em tempo de compilação.
+
+#34: Variáveis e métodos estáticos (modificador static)
+Na aula de hoje vamos aprender como utilizar o modificador static em métodos e variáveis e o que acontece com os métodos e variáveis quando possuem esse modificador.
+
+#35: Recursividade
+Na aula de hoje vamos aprender como declarar e utilizar métodos recursivos. Vamos aprender também como a execução de um algoritmo recursivo acontece.
+
+#36: Relacionamento tem um
+Na aula de hoje vamos aprender como criar atributos de classe com tipo de outra classe, ou seja, declarar uma classe A dentro de uma classe B como atributo.
+
+
+07 - OO: HERANÇA, INTERFACES E POLIMORFISMO
+
+#37: Herança 
+Na aula de hoje vamos aprender como criar construtores para classes Java, que podem ser utilizados como uma forma de inicializar variáveis java quando instanciamos uma classe.
+
+#38: Herança: palavra chave super
+Na aula de hoje vamos aprender como usar a palavra chave super. Basicamente possui o mesmo uso que a palavra chave this, porém, faz referência à super classe (classe mãe).
+
+#39: Herança: modificadores de acesso + protected
+Na aula de hoje vamos revisar como os modificadores default, public e private se comportam quando fazemos o uso de herança e também vamos aprender sobre o modificador protected.
+
+#40: Herança e Polimorfismo: sobrecarga de métodos
+Na aula de hoje vamos aprender como sobrecarregar/sobrepor métodos da superclasse em subclasses. Vamos aprender também o conceito de polimorfismo
+
+#41: Herança: classes abstratas
+Na aula de hoje vamos aprender sobre classes abstratas e qual a diferença entre usar o modificador de acesso abstract ou não utilizar.
+
+#42: Palavra chave final
+Na aula de hoje vamos aprender como utilizar a palavra chave final e o que isso implica quando fazemos o uso de herança.
+
+#43: Classe Object
+Na aula de hoje vamos aprender sobre a hierarquia das classes Java e sobre a super classe de todas as classes: a classe Object.
+
+
+
+
+
+
+
+
+
+
+
+
+
