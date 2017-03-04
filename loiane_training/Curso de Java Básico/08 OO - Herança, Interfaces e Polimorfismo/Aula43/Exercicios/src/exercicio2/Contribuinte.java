@@ -4,7 +4,7 @@ package exercicio2;
  *
  * @author code36u4r60
  */
-public abstract class Contribuite {
+public abstract class Contribuinte {
 
 //<editor-fold defaultstate="collapsed" desc="Attributes...">
     private String nome;
@@ -12,12 +12,11 @@ public abstract class Contribuite {
 //</editor-fold>
 
 //<editor-fold defaultstate="collapsed" desc="Constructor's...">
-    public Contribuite() {
-    }
-
-    public Contribuite(String nome, double rendaBruta) {
+    public Contribuinte(String nome, double rendaBruta) {
         this.nome = nome;
         this.rendaBruta = rendaBruta;
+    }
+    public Contribuinte() {
     }
 //</editor-fold>
 

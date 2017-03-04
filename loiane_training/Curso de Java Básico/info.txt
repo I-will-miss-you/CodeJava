@@ -173,8 +173,11 @@ Na aula de hoje vamos aprender como utilizar a palavra chave final e o que isso 
 #43: Classe Object
 Na aula de hoje vamos aprender sobre a hierarquia das classes Java e sobre a super classe de todas as classes: a classe Object.
 
+#44: Interfaces
 
+#45: Interfaces e Herança: casting e instaceof
 
+#46: Interface e herança
 
 
 
