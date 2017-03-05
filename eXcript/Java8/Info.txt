@@ -1,0 +1,17 @@
+
+Formador: eXcript (Canal youtube)
+
+Tema: Java 8 - Lambda
+
+#01 - Introdução ao Java 8
+#02 - Expressões Lambdas
+#03 - Expressões Lambdas na Práica
+#04 - Sintaxe do Lambada
+#05 - Interfaces Funcionais
+#06 - Expressões Lambdas II  
+#07 - Expressões Lambdas III
+#08 - Stream
+#09 - Stream na Prática
+#10 - Interface Funcional Predicate
+#11 - Iteração Interna
+#12 - Iteração Interna II

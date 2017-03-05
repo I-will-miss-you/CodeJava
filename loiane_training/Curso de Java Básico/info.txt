@@ -188,6 +188,13 @@ Na aula de hoje vamos aprender sobre a hierarquia das classes Java e sobre a sup
 
 #49: Exception: finally
 
+#50: Exceptions: stacktrace e throws
+
+#51: Exceptions: tipos de erros no Java
+
+#52: Exceptions: criando sua própria exceção
+
+
 
 
 
