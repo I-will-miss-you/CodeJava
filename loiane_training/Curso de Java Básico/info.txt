@@ -180,7 +180,13 @@ Na aula de hoje vamos aprender sobre a hierarquia das classes Java e sobre a sup
 #46: Interface e herança
 
 
+08 - TRATAMENTO DE ERROS E EXCEÇÕES
 
+#47: Exception: Try, Catch
+
+#48: Exception: Multiplos Catch
+
+#49: Exception: finally
 
 
 
