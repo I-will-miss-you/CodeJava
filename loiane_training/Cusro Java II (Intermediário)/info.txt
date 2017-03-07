@@ -19,10 +19,16 @@ Curso de Java Básico (Java SE) – módulo II:
 Nível: Iniciante ao Intermediário
 
 
-01 - ENUMERADORES (ENUM):
+1 -  ENUMERADORES (ENUM):
 
-#53: Enumeradores (Enum)
+#01: Enumeradores (Enum)
 
-#54: Enumeradores como classe (construtor e métodos)
+#02: Enumeradores como classe (construtor e métodos)
 
-#55: Enum: métodos value e valueOf
+#03: Enum: métodos value e valueOf
+
+#04: Enum: métodos abstratos
+
+Correção Exercícios Aula 04: Enum (Calculadora com Enum)
+
+2 - 
