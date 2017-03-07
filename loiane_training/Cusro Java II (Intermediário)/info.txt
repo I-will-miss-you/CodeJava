@@ -1,0 +1,28 @@
+
+Formadora: <loiane.training>
+
+Duração: - Curso em andamento – as aulas ainda estão sendo publicadas
+	34 Aulas
+	6 Horas 12 Minutos
+
+Curso de Java Básico (Java SE): 
+
+Document JAVA: http://docs.oracle.com/javase/8/docs/api/ 
+
+Curso de Java Básico (Java SE) – módulo II: 
+	No módulo II você vai aprender:
+		Mais sobre a linguagem Java (Enum, autoboxing, etc)
+		Classes utilitárias que todo desenvolvedor deve saber usar
+		Collections e Generics (Estruturas de dados do Java)
+		I/O: Leitura e escrita de arquivos
+
+Nível: Iniciante ao Intermediário
+
+
+01 - ENUMERADORES (ENUM):
+
+#53: Enumeradores (Enum)
+
+#54: Enumeradores como classe (construtor e métodos)
+
+#55: Enum: métodos value e valueOf
