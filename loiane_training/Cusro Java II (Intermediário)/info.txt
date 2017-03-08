@@ -31,4 +31,7 @@ Nível: Iniciante ao Intermediário
 
 Correção Exercícios Aula 04: Enum (Calculadora com Enum)
 
-2 - 
+
+2 - MAIS ELEMENTOS BÁSICOS DA LINGUAGEM JAVA
+
+#05: Wrappers: classes de tipos primitivos
