@@ -35,3 +35,13 @@ Correção Exercícios Aula 04: Enum (Calculadora com Enum)
 2 - MAIS ELEMENTOS BÁSICOS DA LINGUAGEM JAVA
 
 #05: Wrappers: classes de tipos primitivos
+
+#06: Autoboxing e Unboxing
+
+#07: Importação estática (static import)
+
+#08: Escopo de Variáveis
+
+#09: Passagem de parâmetros por valor e por referência
+
+#10: Varargs
