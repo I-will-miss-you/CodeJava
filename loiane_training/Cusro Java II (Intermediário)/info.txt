@@ -45,3 +45,34 @@ Correção Exercícios Aula 04: Enum (Calculadora com Enum)
 #09: Passagem de parâmetros por valor e por referência
 
 #10: Varargs
+
+#11: printf
+
+#12: Classes aninhadas: internas, locais e anônimas
+
+#13: Annotations (Anotações)
+
+#14: Garbage Collector (Coletor de Lixo)
+
+
+3 - PROGRAMAÇÃO MULTI-TAREFAS: THREADS
+
+#15: Criando Threads + métodos start, run e sleep
+
+#16: Threads: Interface Runnable
+
+#17: Criando várias Threads + métodos isAlive e join
+
+#18: Threads: Definindo prioridades
+
+#19: Threads: métodos e blocos sincronizados (synchronized)
+
+#20: Threads: notify, wait e notifyAll
+
+
+
+
+
+
+
+#end
