@@ -69,9 +69,15 @@ Correção Exercícios Aula 04: Enum (Calculadora com Enum)
 
 #20: Threads: notify, wait e notifyAll
 
+#21: Threads: resume, suspend e stop
+
+#22: Threads: deadlocks
+Exercícios Aula 22: Semáfaro com Threads
 
 
+4 - TRABALHANDO COM STRINGS
 
+#23: String: construtores
 
 
 

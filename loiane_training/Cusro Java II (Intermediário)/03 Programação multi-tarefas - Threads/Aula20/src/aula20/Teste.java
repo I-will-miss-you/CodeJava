@@ -24,8 +24,8 @@ public class Teste {
 
         
         try {
-            tique.t.join();
-            taque.t.join();
+            tique.getT().join();
+            taque.getT().join();
         } catch (InterruptedException ex) {
             Logger.getLogger(Teste.class.getName()).log(Level.SEVERE, null, ex);
         }

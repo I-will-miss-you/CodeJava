@@ -11,8 +11,8 @@ package aula20;
  */
 public class ThreadTiqueTaque implements Runnable {
 
-    TiqueTaque tt;
-    Thread t;
+    private TiqueTaque tt;
+    private Thread t;
 
     final int NUM = 5;
 
@@ -24,17 +24,45 @@ public class ThreadTiqueTaque implements Runnable {
 
     @Override
     public void run() {
-        if (t.getName().equalsIgnoreCase("tique")) {
+        if (getT().getName().equalsIgnoreCase("tique")) {
             for (int i = 0; i < NUM; i++) {
-                tt.tique(true);
+                getTt().tique(true);
             }
-            tt.tique(false);
+            getTt().tique(false);
         } else {
             for (int i = 0; i < NUM; i++) {
-                tt.taque(true);
+                getTt().taque(true);
             }
-            tt.taque(false);
+            getTt().taque(false);
         }
+    }
+
+    /**
+     * @return the tt
+     */
+    public TiqueTaque getTt() {
+        return tt;
+    }
+
+    /**
+     * @param tt the tt to set
+     */
+    public void setTt(TiqueTaque tt) {
+        this.tt = tt;
+    }
+
+    /**
+     * @return the t
+     */
+    public Thread getT() {
+        return t;
+    }
+
+    /**
+     * @param t the t to set
+     */
+    public void setT(Thread t) {
+        this.t = t;
     }
 
 }
