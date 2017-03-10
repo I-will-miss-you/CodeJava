@@ -79,6 +79,35 @@ Exercícios Aula 22: Semáfaro com Threads
 
 #23: String: construtores
 
+#24: String: concatenação
+
+#25: String: extraindo chars (charAt, getChars, getBytes, toCharArray)
+
+#26: String: comparação de Strings (equalsIgnoreCase, regionMatches, startsWith, endsWith, compareTo)
+
+#27: String: fazendo buscas (indexOf, lastIndexOf, contains)
+
+#28: String: modificando uma String (substring, concat, replace, trim)
+
+#29: String: modificando letras maiúsculas/minúsculas (toLowerCase, toUpperCase)
+
+#30: String: juntando e separando String (join, split)
+
+#31: concatenação com StringBuilder e StringBuffer
+
+#32: String Tokenizer
+
+
+5 - CLASSES UTILITÁRIAS (INTRODUÇÃO)
+
+#33: Classe Math
+
+#34: Classe Date (Data)
+
+#35: Classe Calendar
+
+
+
 
 
 #end
