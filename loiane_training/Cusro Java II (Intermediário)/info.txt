@@ -106,6 +106,14 @@ Exercícios Aula 22: Semáfaro com Threads
 
 #35: Classe Calendar
 
+#36: Classe GregorianCalendar
+
+#37: Formatando datas com SimpleDateFormat
+
+#38: Locale (Internacionalização) 
+
+#39: Formatando datas com DateFormat e Locale 
+
 
 
 
