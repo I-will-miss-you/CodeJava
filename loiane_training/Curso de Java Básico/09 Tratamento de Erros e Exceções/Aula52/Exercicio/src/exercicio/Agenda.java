@@ -1,6 +1,5 @@
 package exercicio;
 
-import java.util.Arrays;
 
 /**
  *

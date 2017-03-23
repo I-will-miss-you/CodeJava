@@ -1,0 +1,47 @@
+
+Formadora: <loiane.training>
+
+Duração: - Curso em andamento – as aulas ainda estão sendo publicadas
+	40 Aulas
+	6 Horas, 40 minutos
+
+Estrutura de Dados e Algoritmos com Java: 
+
+
+Uma estrutura de dados é um modo particular de armazenamento e organização de dados em um computador de modo que possam ser usados eficientemente. Entre as que vamos aprender nesse curso podemos citar: vetores, pilhas, filas, listas encadeadas, árvores e grafos.
+Saber como utilizar e gerenciar estruturas de dados é essencial para qualquer programador. Utilizar a estrutura de dados errada tem como consequência perder performance no programa e até mesmo a saída incorreta.
+É importante também saber como buscar dados de maneira mais eficiente e também como os ordenar. Nesse curso também vamos aprender sobre algoritmos de busca e de ordenação.
+Aprender estruturas de dados e algoritmos lhe torna um programador melhor, além de ajudar a conseguir a passar em entrevistas de emprego em grandes empresas de TI, como eBay, amazon, Google, entre outras.
+Nesse curso vamos aprender a teoria, como podemos utilizar a estrutura de dados ou algoritmo em projetos reais, além de aprender as estruturas presentes na linguagem Java.
+Vamos utilizar a linguagem Java, mas você pode desenvolver os algoritmos em qualquer linguagem de sua preferência.
+É necessário ter conhecimento básico da linguagem Java. Caso deseje, você pode fazer esse curso gratuito para aprender o básico de Java.
+
+Objectivos do curso:
+01 - Vetores (Arrays)
+02 - Pilhas (Stacks)
+03 - Filas (Queues)
+04 - Listas Encadeadas (Linked Lists)
+05 - Listas Duplamente Encadeadas (Doubly-Linked Lists)
+06 - Conjuntos (Sets)
+07 - Tabelas de Hashing (HashTables)
+08 - Árvores (Trees)
+09 - Grafos (Graphs)
+10 - Algoritmos de Ordenação: 
+11 - Bolha (Bubble Sort)
+12 - Seleção (Selection Sort)
+13 - Inserção (Insertion Sort)
+14 - Merge Sort
+15 - Quick Sort
+16 - Busca sequencial
+17 - Busca binária
+
+
+1 - INTRODUÇÃO
+#01: Introdução a Estrutura de Dados e Algoritmos
+
+
+
+
+
+
+#end
