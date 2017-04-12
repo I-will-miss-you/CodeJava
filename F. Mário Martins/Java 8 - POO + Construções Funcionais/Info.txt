@@ -1,0 +1,68 @@
+
+Autor: F. Mário Martins (Book)
+Assunto: Java 8 - POO + Construções Funcionais
+
+Mais...
+Edição: 2017
+ISBN: 978-972-722-838-6
+Editora: FCA
+
+
+Conteúdos abordados:
+· Paradigma da POO; Tecnologia e Introdução à Linguagem JAVA;
+· Classes, Instâncias e Metodologia Orientada pelos Objetos; 
+· BlueJ, NetBeans e Eclipse;
+· Hierarquia de Classes e Herança;
+· Classes Abstratas e Polimorfismo;
+· Interfaces de Java; Exceções;
+· O Novo Package java.time;
+· Construções Funcionais de Java: Lambdas; Coleções de JCF: Introdução;
+· Streams e Pipelines; Streams e Coleções de JCF: Novo Modelo de Programação com Coleções;
+· Streams de I/O.
+
+Onde vou...
+1 - PARADIGMA DA PROGRAMAÇÃO ORIENTADA PELOS OBJETOS
+	1.1 Introdução
+		1.1.1 Via da Simulação
+		1.1.2 Via da Engenhraria de Software
+		1.1.3 Linguagens Estruturadas
+		1.1.4 Liguangens Modulares
+	1.2 Abstração de dados e data - Hiding
+	1.3 O que é um objeto?
+	1.4 Encapsulamento: Propriedade Fundamental
+	1.5 Mensagens 
+	1.6 Objectos em POO: Instâncias e Classes
+
+2- JAVA: TECNLOGIA e INTRODUÇÃO À LINGUAGEM
+	2.1 Introdução
+	2.2 Génese da Tecnologia Java
+		2.2.1 Java 5
+		2.2.2 Java 8
+	2.3 O que é a Tecnologia Java
+	2.4 Linguagem Java: Características
+		2.4.1 Introdução
+		2.4.2 Nível dos Tipos Primitivos
+		2.4.3 Declarações de Variáveis e Inicialização
+		2.4.4 Declarações de Constantes
+		2.4.5 Conversão entre Tipos: Casting
+		2.4.6 Comentários em Java
+		2.4.7 Conjunto de Operadores
+		2.4.8 Instruções, Estruturas de Controlo e Diretivas 
+			2.4.8.1 if/else
+			2.4.8.2 switch
+			2.4.8.3 for
+			2.4.8.4 while
+			2.4.8.5 do/while
+		2.4.9 Strings
+		2.4.10 I/O Simples
+			2.4.10.1 Saída Formatada: printf()
+			2.4.10.2 Leituras com: Scanner
+		2.4.11 Tipos Referenciados: Objectos e Arrays
+			2.4.11.1 Arrays
+			2.4.11.2 Acesso aos Elementos de um Array
+			2.4.11.3 Ciclo for com Arrays
+			2.4.11.4 Ciclor For(each) com Arrays
+		2.4.12 Estrutura de um Programa
+	2.5 Criação do Ambiente Java 
+
+3- CLASSES, INTSÂNCIAS E METODOLOGIA ORIENTADA PELOS OBJETOS

@@ -1,0 +1,83 @@
+ 
+ Formador: Professor Gustavo Guanabara  
+ Site do Curso: http://www.cursoemvideo.com/  
+ Canal do Youtube: https://www.youtube.com/playlist?list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY  
+
+ Tempo de Curso: (+ou-) 13horas  
+
+ EMENTA DO CURSO:  
+
+#Teória 01a – O que é Programação Orientada a Objetos
+ - Nessa aula de POO, vamos aprender o que é Programação Orientada a Objetos e quais são as suas principais vantagens em relação a outros tipos de Linguagem de Programação. 
+Duração: 37 minutos
+
+#Prática 01b – Instalando o JDK e NetBeans
+ - Nessa aula de POO, vamos ver o passo-a-passo para instalar o Java Development Kit e a IDE NetBeans. Tudo tem que ficar preparado para as próximas aulas!
+Duração: 9 minutos
+
+#Teória 02a – O que é um Objeto?
+ - Nessa aula de POO, vamos aprender os conceitos de Classes e Objetos, passando pela teoria de Atributos, Métodos, Estado e Instâncias. Veja como criar uma classe e instanciar, criando objetos.
+Duração: 30 minutos
+
+#Prática 02b – Criando Classes e Objetos em Java
+ - Nessa aula de POO, vamos aprender como criar uma Classe, com seus atributos e métodos, e a instanciar novos objetos a partir dessa classe inicial.
+Duração: 20 minutos
+
+#Teoria 03a – O que é Visibilidade em um Objeto? 
+ - Nessa aula de POO, vamos aprender qual a importância dos modificadores de visibilidade público (+), privado (-) e protegido (#) na Programação Orientada a Objetos.
+Duração: 20 minutos
+
+#Prática 03b - Configurando Visibilidade de Atributos e Métodos 
+ - Nessa aula de POO, vamos aprender na prática como usar as palavras public, private e protected na linguagem Java e qual é o efeito no uso de cada uma delas.
+Duração: 15 minutos
+
+#Teoria 04a – Métodos Especiais
+ - Nessa aula de POO, vamos aprender como funcionam os Métodos Acessores (Getters), Métodos Modificadores (Setters) e Métodos Construtores (Construct) para a Programação Orientada a Objetos.
+Duração: 24 minutos
+
+#Prática 04b – Métodos Getter, Setter e Construtor 
+ - Nessa aula de POO, vamos aprender como criar em Java os Métodos Acessores (Getters), Métodos Modificadores (Setters) e Métodos Construtores (Construct).
+Duração: 18 minutos
+
+#Teoria 05a – Exemplo Prático com Objetos
+ - Nessa aula de POO, vamos fazer um exemplo prático com Programação Orientada a Objetos, usando tudo aquilo que aprendemos até aqui.
+Duração: 35 minutos
+
+#Prática 05b – Exemplo Prático em Java
+Nessa aula de POO, vamos fazer um grande exercício de Programação Orientada a Objetos utilizando Java.
+Duração: 29 minutos
+
+#Teoria 06a – Pilares da POO: Encapsulamento
+ - Nessa aula de POO, vamos aprender quais são os três pilares da Programação Orientada a Objetos e vamos estudar o primeiro pilar: o Encapsulamento da POO.
+Duração: 37 minutos
+
+#Prática 06b  – Encapsulamento
+ - Nessa aula de POO, vamos aprender como fazer Encapsulamento em Java, implementando o primeiro pilar da POO.
+Duração: 25 minutos
+
+
+#Teoria 07a – Relacionamento entre Classes
+Nessa aula de POO, vamos aprender como fazer relacionamentos entre as classes.
+Duração: 35 minutos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

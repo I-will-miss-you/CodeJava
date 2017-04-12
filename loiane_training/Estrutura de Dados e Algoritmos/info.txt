@@ -37,7 +37,20 @@ Objectivos do curso:
 
 
 1 - INTRODUÇÃO
-#01: Introdução a Estrutura de Dados e Algoritmos
+	#01: Introdução a Estrutura de Dados e Algoritmos
+
+2 - VETORES, ARRAYS e LISTAS
+	#02: Vetores e Arrays: Introdução
+	#03: Vetores e Arrays: Adicionar elemento no final do vetor
+	#04: Vetores e Arrays: Verificar tamanho e imprimir elementos do vetor
+	#05: Vetores e Arrays: Obter elemento de uma posição
+	#06: Vetores e Arrays: Verificar se elemento existe no vetor (busca sequencial)
+	#07: Vetores e Arrays: Adicionar elemento em qualquer posição
+	#08: Vetores e Arrays: Aumentar capacidade do vetor
+	#09: Vetores e Arrays: Remover elemento do vetor
+	#10: Vetores e Arrays: Generalizar o tipo do vetor
+	#11: Vetores e Arrays: Configurar tipo dinamicamente 
+	#12: Vetores e Arrays: API Java: ArrayList 
 
 
 
