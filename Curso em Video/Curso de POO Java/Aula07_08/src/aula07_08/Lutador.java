@@ -1,4 +1,4 @@
-package aula07;
+package aula07_08;
 
 /**
  *
@@ -35,6 +35,19 @@ public class Lutador {
         this.empates = empates;
     }
 
+    public Lutador(Lutador lutador) {
+        this.nome = lutador.getNome();
+        this.nacionalidade = lutador.getNacionalidade();
+        this.idade = lutador.getIdade();
+        this.altura = lutador.getAltura();
+        this.peso = lutador.getPeso();
+        this.categoria = lutador.getCategoria();
+        this.vitorias = lutador.getVitorias();
+        this.derrotas = lutador.getDerrotas();
+        this.empates = lutador.getEmpates();
+    }
+
+    
     public int getEmpates() {
         return empates;
     }
@@ -141,7 +154,6 @@ public class Lutador {
                 + "\nDerrotas: " + getDerrotas()
                 + "\nEmpates: " + getEmpates());
     }
-    
 
     public void ganharLuta() {
         setVitorias(getVitorias() + 1);
@@ -155,4 +167,5 @@ public class Lutador {
         setEmpates(getEmpates() + 1);
     }
 
+    
 }
