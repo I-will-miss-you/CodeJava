@@ -40,17 +40,25 @@ Objectivos do curso:
 	#01: Introdução a Estrutura de Dados e Algoritmos
 
 2 - VETORES, ARRAYS e LISTAS
-	#02: Vetores e Arrays: Introdução
-	#03: Vetores e Arrays: Adicionar elemento no final do vetor
-	#04: Vetores e Arrays: Verificar tamanho e imprimir elementos do vetor
-	#05: Vetores e Arrays: Obter elemento de uma posição
-	#06: Vetores e Arrays: Verificar se elemento existe no vetor (busca sequencial)
-	#07: Vetores e Arrays: Adicionar elemento em qualquer posição
-	#08: Vetores e Arrays: Aumentar capacidade do vetor
-	#09: Vetores e Arrays: Remover elemento do vetor
-	#10: Vetores e Arrays: Generalizar o tipo do vetor
-	#11: Vetores e Arrays: Configurar tipo dinamicamente 
-	#12: Vetores e Arrays: API Java: ArrayList 
+	#02: Introdução
+	#03: Adicionar elemento no final do vetor
+	#04: Verificar tamanho e imprimir elementos do vetor
+	#05: Obter elemento de uma posição
+	#06: Verificar se elemento existe no vetor (busca sequencial)
+	#07: Adicionar elemento em qualquer posição
+	#08: Aumentar capacidade do vetor
+	#09: Remover elemento do vetor
+	#10: Generalizar o tipo do vetor
+	#11: Configurar tipo dinamicamente 
+	#12: API Java: ArrayList 
+	#Exer 01: Método contém
+	#Exer 02: Método último índice
+	#Exer 03: Método remove elemento
+	#Exer 04: Método obtém (get)
+	#Exer 05: Método remover todos elementos (clear)
+	#Exer 06: Contatos – Lista
+	#Exer 07: Contatos – ArrayList
+
 
 
 

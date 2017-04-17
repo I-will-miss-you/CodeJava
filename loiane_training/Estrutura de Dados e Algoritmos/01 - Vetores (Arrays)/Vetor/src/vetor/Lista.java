@@ -12,6 +12,11 @@ public class Lista<T> {
     private T[] elementos;
     private int tamanho;
 
+    public Lista() {//solução do livro effective Java
+        this.elementos = (T[]) new Object[10];
+        tamanho = 0;
+    }
+
     public Lista(int capacidade) {//solução do livro effective Java
         this.elementos = (T[]) new Object[capacidade];
         tamanho = 0;
@@ -56,6 +61,10 @@ public class Lista<T> {
         }
     }
 
+    public T obtem(int posicao) {
+        return busca(posicao);
+    }
+
     public T busca(int posicao) {
         if (!(posicao >= 0 && posicao < tamanho)) {
             throw new IllegalArgumentException("Posição inválida");
@@ -95,6 +104,27 @@ public class Lista<T> {
         this.tamanho--;
     }
 
+    public void remove(T elemento) {
+        int pos = this.busca(elemento);
+        if (pos > -1) {
+            remove(pos);
+        }
+    }
+
+    public void limpar() {
+        //opção 1
+        this.elementos = (T[]) new Object[this.elementos.length];
+
+        //opção 2
+        this.tamanho = 0;
+
+        //opção 3
+        for (int i = 0; i < this.tamanho; i++) {
+            this.elementos[i] = null;
+        }
+        this.tamanho = 0;
+    }
+
     public int tamanho() {
         return this.tamanho;
     }
@@ -102,6 +132,9 @@ public class Lista<T> {
     @Override
     public String toString() {
         StringBuilder s = new StringBuilder();
+        if (tamanho == 0 || this.obtem(0) == null) {
+            return "[]";
+        }
         s.append("[");
         for (int i = 0; i < this.tamanho; i++) {
             s.append(this.elementos[i]);

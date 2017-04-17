@@ -66,3 +66,38 @@ Onde vou...
 	2.5 Criação do Ambiente Java 
 
 3- CLASSES, INTSÂNCIAS E METODOLOGIA ORIENTADA PELOS OBJETOS
+	3.1 Definição de Classe
+	3.2 Criação de Classes: Introdução
+		3.2.1 Classe "Ponto": Requisitos Iniciais
+		3.2.2 Definições da Estrutura
+		3.2.3 Definições do Comportamento: Construtores
+		3.2.4 Definição do Comportamento: Métodos de Instância
+		3.2.5 Referências "this"
+		3.2.6 Packages e Importação de Classes
+		3.2.7 Definição Atual da Classe "Ponto"
+		3.2.8 Regras de Acessibilidade a uma Classe
+		3.2.9 Regras de Acesso a Variáveis e Métedos de Instância
+		3.2.10 Definição Final da Classe "Ponto"
+		3.2.11 Compilação e Teste da Classe "Ponto"
+		3.2.12 Métedos Complementares Úteis
+		3.2.13 Sobrecarga de Métedos (Overloading)
+		3.2.14 Métedos com número Variável de Parâmetros (Varargs)
+	3.3 Paradigma Imperativo vs Orientação Pelos Objetos: Metodologia Orientada pelos Objetos
+	3.4 Classes Simples, Objetos e Comportamentos
+	3.5 Composição na Definição de Classes
+		3.5.1 Métodos get() e set() e Encapsulamento
+		3.5.2 Encapsulamento e clone
+			3.5.2.1 Clone Predefinido de Java
+			3.5.2.2 Implementação Correta do Método clone()
+		3.5.3 Métodos equals(Object o) e toString()
+	3.6 Exemplo: Classe "Segmento"
+	3.7 Exemplo: Cartão de Crédito Ecard
+		3.7.1 Métodos Parciais de Classe
+	3.8 Métodos e Varáveis de Classe
+	3.9 Factory Methods
+	3.10 Importação Estática
+	3.11 Classes não Instanciáveis
+	3.12 Classes Wrapper: Integer, Double e Outras
+	3.13 Annotations
+
+4 - IDE PARA JAVA: BLUEJ, NETBEANS E ECLIPSE
