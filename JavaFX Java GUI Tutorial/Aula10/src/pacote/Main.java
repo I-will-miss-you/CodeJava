@@ -1,4 +1,4 @@
-package aula09;
+package pacote;
 
 import javafx.application.Application;
 import javafx.geometry.Insets;
@@ -25,6 +25,8 @@ import javafx.stage.Stage;
 public class Main extends Application {
 
     Stage window;
+    Scene scene;
+    Button button;
 
     public static void main(String[] args) {
         launch(args);
@@ -35,35 +37,32 @@ public class Main extends Application {
         window = primaryStage;
         window.setTitle("JavaFx - thenewboston");
 
-        GridPane grid = new GridPane();
-        grid.setPadding(new Insets(10, 10, 10, 10));
-        grid.setVgap(8);
-        grid.setHgap(10);
+        //Form
+        TextField nameInpuField = new TextField();
+        button = new Button("Click me");
 
-        //Name label
-        Label nameLabel = new Label("Username:");
-        GridPane.setConstraints(nameLabel, 0, 0);
+        button.setOnAction(e -> {
+            isInt(nameInpuField, nameInpuField.getText());
+        });
+        //Layout
+        VBox layout = new VBox(10);
+        layout.setPadding(new Insets(20, 20, 20, 20));
+        layout.getChildren().addAll(nameInpuField, button);
 
-        //Name input
-        TextField nameInput = new TextField("username");
-        GridPane.setConstraints(nameInput, 1, 0);
-
-        //Password label
-        Label passLabel = new Label("Password:");
-        GridPane.setConstraints(passLabel, 0, 1);
-
-        //Password input
-        PasswordField passInput = new PasswordField();
-        passInput.setPromptText("password");
-        GridPane.setConstraints(passInput, 1, 1);
-
-        Button loginButton = new Button("Login");
-        GridPane.setConstraints(loginButton, 1, 2);
-        
-        grid.getChildren().addAll(nameLabel,nameInput,passLabel,passInput,loginButton);
-        Scene scene = new Scene(grid);
+        scene = new Scene(layout, 300, 300);
         window.setScene(scene);
         window.show();
+    }
+
+    private boolean isInt(TextField input, String message) {
+        try {
+            int age = Integer.parseInt(input.getText());
+            System.out.println("User is: " + age);
+            return true;
+        } catch (NumberFormatException e) {
+            System.out.println("Erros: " + message + " is not a number");
+        }
+        return false;
     }
 
 }

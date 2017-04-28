@@ -7,12 +7,15 @@ Canal YouTube: thenewboston
 Link: https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBzfXLWLSYVy8EbTdpGbUIG
 
 Menu:
-1 - Creating a Basic Window 
-2 - Handle User Events
-3 - Anonymous Inner Classes and Lambda Expressions 
-4 - Switching Scenes 
-5 - Creating Alert Boxes 
-6 - Communicating Between Windows 
-7 - Closing the Program Properly 
-8 - Embedding Layouts 
-9 - GridPane 
+01 - Creating a Basic Window 
+02 - Handle User Events
+03 - Anonymous Inner Classes and Lambda Expressions 
+04 - Switching Scenes 
+05 - Creating Alert Boxes 
+06 - Communicating Between Windows 
+07 - Closing the Program Properly 
+08 - Embedding Layouts 
+09 - GridPane 
+10 - Extract and Validate Input 
+11 - CheckBox 
+12 - ChoiceBox (Drop Down Menu) 
