@@ -1,0 +1,18 @@
+
+Site: https://thenewboston.com/index.php
+
+Facebook: https://www.facebook.com/TheNewBoston-464114846956315/
+
+Canal YouTube: thenewboston 
+Link: https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBzfXLWLSYVy8EbTdpGbUIG
+
+Menu:
+1 - Creating a Basic Window 
+2 - Handle User Events
+3 - Anonymous Inner Classes and Lambda Expressions 
+4 - Switching Scenes 
+5 - Creating Alert Boxes 
+6 - Communicating Between Windows 
+7 - Closing the Program Properly 
+8 - Embedding Layouts 
+9 - GridPane 
