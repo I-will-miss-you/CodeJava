@@ -24,6 +24,16 @@ Menu:
 15 - ListView 
 16 - TreeView 
 17 - Introduction to TableView    
-18 - Simple TableView (folder -> aula17)
-19 - Editable Tables (folder -> aula17)
-20 - Adding and Deleting TableView Rows (folder -> aula17)
+18 - Simple TableView (project -> aula17)
+19 - Editable Tables (project -> aula17)
+20 - Adding and Deleting TableView Rows (project -> aula17)
+21 - Making Menus 
+22 - Handling Menu Clicks (project -> aula21)
+23 - CheckMenuItem (project -> aula21)
+24 - RadioMenuItem (project -> aula21)
+25 - CSS Themes and Styles 
+26 - CSS Inline Styles and Selectors (project -> aula25)
+27 - CSS Custom Style Classes and Selectors (project -> aula25)
+28 - Properties 
+29 - Binding 
+30 - Binding Properties Example <==
