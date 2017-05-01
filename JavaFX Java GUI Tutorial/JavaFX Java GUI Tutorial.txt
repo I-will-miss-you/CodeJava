@@ -36,4 +36,9 @@ Menu:
 27 - CSS Custom Style Classes and Selectors (project -> aula25)
 28 - Properties 
 29 - Binding 
-30 - Binding Properties Example <==
+30 - Binding Properties Example 
+31 - Introduction to FXML 
+32 - Controllers in FXML (project -> aula31)
+33 - Initialize, Binding, and Reusable Components (project -> aula31)
+34 - Scene Builder 
+35 - Working with Scene Builder 

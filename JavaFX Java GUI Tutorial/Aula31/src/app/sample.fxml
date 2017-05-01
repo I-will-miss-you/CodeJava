@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.Controller">
+    <children>
+        <VBox prefWidth="600" prefHeight="600" >
+            <children>
+
+                <!-- <Label text="O love bacon" fx:id="firstLabel"/>
+                <Label text="$firstLabel.text"/> -->
+
+                <Button text="Submit" fx:id="button" onAction="#handleButtonClick"/>
+
+                <fx:define >
+                    <ToggleGroup fx:id="toggleGroup"/>
+                </fx:define>
+
+
+                <Label text="Difficulty: " />
+                <RadioButton text="Easy" toggleGroup="$toggleGroup" />
+                <RadioButton text="Medium" toggleGroup="$toggleGroup" />
+                <RadioButton text="Hard" toggleGroup="$toggleGroup" />
+
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>
