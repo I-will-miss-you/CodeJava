@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="531.0" prefWidth="760.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="designbuttons.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <JFXButton layoutX="69.0" layoutY="85.0" prefHeight="52.0" prefWidth="115.0" ripplerFill="#00f1ff" style="-fx-background-color: #FFFFFF;" text="Simple Button" />
+      <JFXButton fx:id="raisedButton" buttonType="RAISED" layoutX="214.0" layoutY="85.0" onAction="#handleButtonAction" prefHeight="52.0" prefWidth="115.0" ripplerFill="RED" style="-fx-background-color: #FFFFFF;" text="Simple Button" />
+      <JFXButton fx:id="disabledButton" disable="true" layoutX="356.0" layoutY="85.0" prefHeight="52.0" prefWidth="115.0" ripplerFill="#04ff04" style="-fx-background-color: #FFFFFF;" text="Simple Button" />
+      <JFXButton fx:id="raisedButton1" buttonType="RAISED" layoutX="214.0" layoutY="157.0" onAction="#handleButtonAction" prefHeight="52.0" prefWidth="115.0" ripplerFill="BLACK" style="-fx-background-color: #4447fe;" text="Simple Button" textFill="WHITE" />
+      <Button layoutX="214.0" layoutY="222.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="115.0" text="Button" />
+    </children>
+</AnchorPane>

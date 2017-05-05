@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXSlider?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane fx:id="background" onMouseClicked="#clicked" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <AnchorPane prefHeight="182.0" prefWidth="593.0">
+            <children>
+                <Pane fx:id="adcd" prefHeight="289.0" prefWidth="593.0">
+                    <children>
+                        <JFXSlider fx:id="red" layoutX="21.0" layoutY="38.0" max="255.0" minorTickCount="2" onMouseClicked="#clicked" prefHeight="37.0" prefWidth="560.0" showTickLabels="true" showTickMarks="true" value="1.0" />
+                        <JFXSlider fx:id="green" layoutX="21.0" layoutY="83.0" max="255.0" onMouseClicked="#clicked" prefHeight="14.0" prefWidth="560.0" showTickLabels="true" showTickMarks="true" value="1.0" />
+                        <JFXSlider fx:id="blue" layoutX="21.0" layoutY="130.0" max="255.0" onMouseClicked="#clicked" prefHeight="14.0" prefWidth="560.0" showTickLabels="true" showTickMarks="true" value="1.0" />
+                    </children>
+                </Pane>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

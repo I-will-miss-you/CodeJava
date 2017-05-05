@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="324.0" prefWidth="381.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="inputvalidation.FXMLDocumentController">
+   <children>
+      <JFXTextField fx:id="name" focusColor="#07c62d" labelFloat="true" layoutX="14.0" layoutY="32.0" prefHeight="31.0" prefWidth="290.0" promptText="Enter Your Name" unFocusColor="#aa24ae" />
+      <JFXTextField fx:id="job" layoutX="14.0" layoutY="104.0" prefHeight="31.0" prefWidth="290.0" promptText="Enter Your Job" />
+   </children>
+</AnchorPane>

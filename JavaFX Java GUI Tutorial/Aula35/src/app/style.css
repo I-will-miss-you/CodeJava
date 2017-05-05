@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 4/mai/2017, 21:44:22
+    Author     : code3
+*/
+.root{
+    -fx-background-color: #2B2B2B;
+}
+
+/***************************************************
+ *                                                 *
+ * Menu Bar                                        *
+ *                                                 *
+***************************************************/
+.menu-bar {
+    -fx-background-color: #2B2B2B;
+    -fx-padding: 10;
+}
+.menu {
+}
+.menu:showing {
+}
+.menu .label {
+    -fx-text-fill: #fffafa;
+}
+.menu:showing .label {
+    -fx-text-fill: #2B2B2B;
+}
+.context-menu:houver {
+    -fx-background-color: #FFFFFF;
+}
+/***************************************************
+ *                                                 *
+ * Login                                      *
+ *                                                 *
+***************************************************/
+.button{
+    -fx-background-color: #294F6D;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-radius: 4;
+}
+
+
+/***************************************************
+ *                                                 *
+ * Menu Vertical                                     *
+ *                                                 *
+***************************************************/
+.vbox > .button:hover{
+    -fx-border-color: #294F6D;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-radius: 4;
+}
+
+
+
