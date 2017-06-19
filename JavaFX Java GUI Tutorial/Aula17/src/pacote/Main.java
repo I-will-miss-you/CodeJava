@@ -114,6 +114,7 @@ public class Main extends Application {
         products.add(new Product("Toilet", 99.00, 75));
         products.add(new Product("The Notebook DVD", 19.99, 12));
         products.add(new Product("Corn", 1.49, 856));
+        products.add(new Product("The Notebook DVDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD", 19.99, 12));
         return products;
     }
 }
