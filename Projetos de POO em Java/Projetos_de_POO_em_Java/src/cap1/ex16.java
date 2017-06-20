@@ -3,22 +3,15 @@ package cap1;
 import anexo.Input;
 
 /**
- * Escrever um programa que calcule o fatorial de um valor inteiro, dado como argumento na invocação
- * do método main(String[] args)
+ * Escrever um programa que calcule o fatorial de um valor inteiro.
  *
  * @author code36u4r60
  */
 public class ex16 {
 
     public static void main(String[] args) {
-        int n;
-        if (args.length == 0) {
-            n = Integer.parseInt(args[0]);
-        } else {
-            System.out.println("Valor : ");
-            n = Input.lerInt();
-        }
-
+        System.out.print("Valor : ");
+        int n = Input.lerInt();
         System.out.println("Factorial de " + n + " = " + factorial(n));
     }
 
