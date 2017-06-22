@@ -10,7 +10,7 @@ import static anexo.Input.lerString;
  *
  * @author code36u4r60
  */
-public class ex07 {
+public class ex07_colecao_de_palavras {
 
     private static int size = 0;
 

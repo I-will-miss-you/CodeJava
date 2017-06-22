@@ -8,7 +8,7 @@ import java.util.Arrays;
  *
  * @author code36u4r60
  */
-public class ex05 {
+public class ex05_vetor_ordenado {
 
     public static void main(String[] args) {
         int[] lista = {};

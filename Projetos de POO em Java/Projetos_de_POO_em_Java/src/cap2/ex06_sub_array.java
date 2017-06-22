@@ -11,7 +11,7 @@ import java.util.Arrays;
  *
  * @author code36u4r60
  */
-public class ex06 {
+public class ex06_sub_array {
 
     public static void main(String[] args) {
         int lista[] = lerArray();

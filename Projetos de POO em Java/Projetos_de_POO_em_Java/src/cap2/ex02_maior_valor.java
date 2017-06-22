@@ -8,7 +8,7 @@ import anexo.Input;
  *
  * @author code36u4r60
  */
-public class ex02 {
+public class ex02_maior_valor {
 
     public static void main(String[] args) {
 
