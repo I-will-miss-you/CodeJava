@@ -148,6 +148,12 @@ public class Pixel {
      * @return {@code true} se igual, {@code false} caso contrário
      */
     public boolean equals(Pixel p) {
+        if (this == p) {
+            return true;
+        }
+        if (p == null) {
+            return false;
+        }
         return x == p.getX() && y == p.getY() && cor == p.getCor();
     }
 
