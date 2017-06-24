@@ -143,6 +143,7 @@ public class Segmento {
                 && this.p1.equals(other.p1);
     }
 
+    @Override
     public Segmento clone() {
         return new Segmento(this);
     }
