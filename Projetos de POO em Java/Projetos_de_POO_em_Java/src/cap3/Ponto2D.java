@@ -1,5 +1,9 @@
 package cap3;
 
+import static java.lang.Math.abs;
+import static java.lang.Math.pow;
+import static java.lang.Math.sqrt;
+
 /**
  * Classe que implementa um Ponto2D.
  *
@@ -135,6 +139,36 @@ public class Ponto2D {
         return new Ponto2D(this);
     }
 
+    /**
+     * Distância a um outro ponto no eixo dos XX O calculo será realizado: {@code p} - (@code this)
+     *
+     * @param p {@code Ponto2D}
+     * @return Distância absoluta
+     */
+    public double distanciaX(Ponto2D p) {
+        return p.x - x;
+    }
+
+    /**
+     * Distância a um outro ponto no eixo dos YY O calculo será realizado: {@code p} - (@code this)
+     *
+     * @param p {@code Ponto2D}
+     * @return Distância absoluta
+     */
+    public double distanciaY(Ponto2D p) {
+        return p.y - y;
+    }
+
+    /**
+     * Distância a um outro ponto
+     *
+     * @param p {@code Ponto2D}
+     * @return Distância absoluta
+     */
+    public double distancia(Ponto2D p) {
+        return sqrt(pow(distanciaX(p), 2) + pow(distanciaY(p), 2));
+    }
+
     @Override
     public String toString() {
         return "Ponto2D{" + "x=" + x + ", y=" + y + '}';
@@ -197,6 +231,9 @@ public class Ponto2D {
         System.out.println("\nP2 == p6 = " + p2.equals(p6));
         System.out.println("p2 == p3 = " + p2.equals(p3));
 
-        //Cereais - 29 / Madeira - 27 / Pedra - 27 / Ferro - 10 / Prata - 1
+        //Distancia em XX
+        System.out.println("Distancia em XX de p2 -> p3: " + p2.distanciaX(p3));
+        System.out.println("Distancia em YY de p2 -> p3: " + p2.distanciaY(p3));
+        System.out.println("Distancia de p2 -> p3: " + p2.distancia(p3));
     }
 }
