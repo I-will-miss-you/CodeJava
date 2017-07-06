@@ -1,7 +1,6 @@
 package cap3;
 
 import static java.lang.System.arraycopy;
-import java.util.Arrays;
 
 /**
  * <p>
@@ -65,15 +64,18 @@ public class MaqVenda {
         this.totalDinheiro = totalDinheiro;
         this.numCompras = 0;
         this.estado = "OK";
+        listProdutos = new Produto2[MAX_PROD];
         arraycopy(this.listProdutos, 0, listProdutos, 0, this.numProds);
         this.numProds = numprods;
     }
 
-    public MaqVenda(String prod, double cash) {
-        tipoProduto = prod;
-        totalDinheiro = cash;
-        numProds = 0;
+    public MaqVenda(String tipoProduto, double totalDinheiro) {
+        this.tipoProduto = tipoProduto;
+        this.totalDinheiro = totalDinheiro;
+        this.numCompras = 0;
+        this.estado = "OK";
         listProdutos = new Produto2[MAX_PROD];
+        this.numProds = 0;
     }
 
     ///////////////////////////////////////////
@@ -126,7 +128,7 @@ public class MaqVenda {
         return prods;
     }
 
-    public int getNumprods() {
+    public int getNumProds() {
         return numProds;
     }
 
@@ -183,6 +185,99 @@ public class MaqVenda {
     private boolean precompra(String produto, int quatidade) {
         int idx = procuraProduto(produto);
         return idx >= 0 && listProdutos[idx].getQtd() >= quatidade && estado.equals("OK");
+    }
+
+    /**
+     * Carrega a máquina com mais dinheiro
+     *
+     * @param cash dinheiro
+     */
+    public void maisCash(double cash) {
+        totalDinheiro += cash;
+    }
+
+    /**
+     * Insere um novo produto na máquina
+     *
+     * @param produto nome de produto
+     * @param preco preço do produto
+     * @param quantidade quantidade de produtos
+     * @return {@code true} caso seja adicionado um novo produto; {@code false} caso contrário.
+     */
+    public boolean addProduto(String produto, double preco, int quantidade) {
+        if (procuraProduto(produto) >= 0) {
+            return false;
+        }
+        if (getNumProds() >= 20) {
+            return false;
+        }
+        listProdutos[getNumProds()] = new Produto2(produto, preco, quantidade);
+        numProds++;
+        return true;
+    }
+
+    public boolean addProduto(Produto2 p) {
+        if (p == null) {
+            return false;
+        }
+        return addProduto(p.getNome(), p.getPreco(), p.getQtd());
+    }
+
+    /**
+     * Cria um array com os nomes de todos os produtos
+     *
+     * @return lista com os nomes
+     */
+    public String[] nomeProdutos() {
+        String[] nomes = new String[numProds];
+        for (int i = 0; i < numProds; i++) {
+            nomes[i] = listProdutos[i].getNome();
+        }
+        return nomes;
+    }
+
+    /**
+     * Total de produtos na máquina
+     *
+     * @return
+     */
+    public int totalProds() {
+        int total = 0;
+        for (int i = 0; i < numProds; i++) {
+            total += listProdutos[i].getQtd();
+        }
+        return total;
+    }
+
+    /**
+     * Devolve sob a forma de uma String toda a informação atual sobre os produtos contidos na
+     * máquina
+     *
+     * @return
+     */
+    public String prodsMaqTxt() {
+        StringBuilder s = new StringBuilder();
+        s.append("==== Produtos na máquina ====\n");
+        for (int i = 0; i < numProds; i++) {
+            s.append(listProdutos[i].toString()).append("\n");
+        }
+        return s.toString();
+    }
+
+    /**
+     * Devolve sob a forma de uma String toda a informação atual da máquina de venda.
+     *
+     * @return
+     */
+    @Override
+    public String toString() {
+        StringBuilder s = new StringBuilder();
+        s.append("Máquina de: ").append(tipoProduto).append("\n");
+        s.append("Dinheiro em caixa: ").append(totalDinheiro).append("\n");
+        s.append("Estado: ").append(estado).append("\n");
+        s.append("Volume de vendas: ").append(numCompras).append("\n");
+        s.append(this.prodsMaqTxt());
+        return s.toString();
     }
 
 }
