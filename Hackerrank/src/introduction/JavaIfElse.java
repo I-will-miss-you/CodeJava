@@ -26,7 +26,7 @@ import java.util.Scanner;
  * <li> If <em>n</em> is even and greater than <em>20</em> , print <em>Not Weird</em>
  * </ul>
  * Complete the stub code provided in your editor to print whether or not <em>n</em> is weird.
- * </p>
+ *
  *
  * <p>
  * <strong>Input Format</strong>
@@ -34,7 +34,7 @@ import java.util.Scanner;
  *
  * <p>
  * <strong>Constraints</strong>
- * <ul><li> 1 &le; n &le; 100 </li></ul></p>
+ * <ul><li> 1 &le; n &le; 100 </li></ul>
  *
  * <p>
  * <strong>Output Format</strong>
@@ -62,7 +62,7 @@ import java.util.Scanner;
  * <br> <em>n</em> is odd and odd numbers are weird, so we print Weird.
  * <br>
  * <br> Sample Case 1: n = 24
- * <br> <em>n</em> > 20 and <em>n</em> is even, so it isn't weird. Thus, we print Not Weird.</p>
+ * <br> <em>n</em> 20 and <em>n</em> is even, so it isn't weird. Thus, we print Not Weird.</p>
  *
  * @author code36u4r60
  */

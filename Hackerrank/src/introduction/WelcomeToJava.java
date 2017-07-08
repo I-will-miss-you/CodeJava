@@ -9,10 +9,11 @@ package introduction;
  * The code stubs in your editor declare a <i>Solution</i> class and a <i>main</i> method. Complete
  * the <i>main</i> method by copying the two lines of code below and pasting them inside the body of
  * your main method.</p>
+ *
  * <p>
  * <br>System.out.println("Hello, World.");
  * <br>System.out.println("Hello, Java.");
- * <p>
+ * </p>
  *
  * <p>
  * <strong>Input Format</strong>
@@ -30,7 +31,8 @@ package introduction;
  * <strong>Sample Output</strong>
  * <br>Hello, World.
  * <br>Hello, Java.
- * <p>
+ * </p>
+ *
  * @author code36u4r60
  */
 public class WelcomeToJava {

@@ -20,7 +20,7 @@ import java.util.Scanner;
  * <p>
  * <strong>Constraints</strong>
  * <ul><li>2 &le; <i>N</i> &le; 20</li></ul>
- * </p>
+ *
  *
  * <p>
  * <strong>Output Format</strong>
@@ -46,7 +46,7 @@ import java.util.Scanner;
  *  2 x 9 = 18
  *  2 x 10 = 20
  *</code></pre>
- * </p>
+ *
  *
  * @author code36u4r60
  */

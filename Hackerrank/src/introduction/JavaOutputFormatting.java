@@ -44,7 +44,7 @@ import java.util.Scanner;
  *  cpp 065
  *  python 050
  * ================================
- * </code></pre></p>
+ * </code></pre>
  *
  * <p>
  * Explanation Each String is left-justified with trailing whitespace through the first <i>15</i>

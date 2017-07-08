@@ -21,7 +21,6 @@ import java.util.Scanner;
  * <li>The second line contains a <code>double</code>.
  * <li>The third line contains a <code>String</code>.
  * </ol>
- * </p>
  *
  * <p>
  * <strong>Output Format</strong>

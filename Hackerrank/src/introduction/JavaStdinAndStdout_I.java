@@ -22,7 +22,6 @@ import java.util.Scanner;
  *  System.out.println("myInt is: " + myInt);
  * </code>
  * </pre>
- * </p>
  *
  * <p>
  * The code above creates a <em>Scanner</em> object named <em>scanner</em> and uses it to read a
@@ -52,10 +51,13 @@ import java.util.Scanner;
  * <br>There are 3 lines of input, and each line contains a single integer.</p>
  * <p>
  * <strong>Sample Input</strong>
- * <pre><code>
+ * <pre>
+ * <code>
  *  42
  *  100
- *  125</code></pre></p>
+ *  125
+ * </code>
+ * </pre>
  *
  * <p>
  * <strong>Sample Output</strong>
@@ -63,7 +65,6 @@ import java.util.Scanner;
  *  42
  *  100
  *  125</code></pre>
- * </p>
  *
  * @author code36u4r60
  */

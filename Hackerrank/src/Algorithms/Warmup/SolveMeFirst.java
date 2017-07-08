@@ -14,7 +14,7 @@ import java.util.Scanner;
  *
  * <p>
  * Select a language below, and start coding!
- * <p>
+ * </p>
  *
  * <p>
  * <strong>Input Format</strong>
