@@ -1,0 +1,23 @@
+
+===== Introdução à programação em linguagem JAVA =====
+
+Entidade formadora: Instituto TIM
+
+Formadores: 	Marcos Ribeiro Pereira Barretto 
+		Rafael Augusto Moreno Gonçalves
+
+Onde se pode encontrar o curso: https://cursos.timtec.com.br/course/programacaojava/intro/
+
+RESUMO
+O curso apresenta os conceitos essenciais de Programação Orientada a Objetos para, 
+em seguida, explorar estes conceitos usando Java. Para além dos conceitos básicos 
+e essenciais, são também apresentados conceitos avançados como threads e manipulação 
+de coleçõeses usando generics. 
+
+ESTRUTURA DO CURSO
+O curso está dividido nas seguintes aulas:
+    Aula 1 - Conceito de orientação a objeto
+    Aula 2 - Construções básicas
+    Aula 3 - Orientação a objetos
+    Aula 4 - Tópicos especiais
+    Aula 5 - Encerramento

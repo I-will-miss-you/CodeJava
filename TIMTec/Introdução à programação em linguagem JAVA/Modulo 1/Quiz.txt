@@ -1,0 +1,85 @@
+
+P: Suponha que o aplicativo que você está desenvolvendo é um jogo de corrida de bicicletas. 
+Os atributos e métodos que você pensou são suficientes? Há propriedades desnecessárias?
+
+Anotações do professor:
+Existem diversas maneiras de modelar objetos para uma determinada aplicação. 
+Um jogo de corrida de bicicletas pode precisar de um atributo velocidade e de 
+métodos para acelerar, freiar e virar a bicicleta. Um jogo mais realista poderia 
+ter um atributo para armazenar em que marcha a bicicleta está e esse valor alteraria 
+o comportamento de outros métodos. Nesse caso é prudente modelar métodos como 
+marchaAcima() e marchaAbaixo().
+Se o jogo não possui um sistema de comércio para as bicicletas, a informação de preço,
+por exemplo, pode ser removida do modelo.
+
+P: Se o aplicativo for para gestão de uma bicicletaria, os métodos e atributos serão os 
+mesmos do jogo? Se não, qual a modelagem que você faria?
+
+Anotações do professor:
+Mudar o domínio da aplicação pode levar a mudar consideravelmente a modelagem. Em uma 
+bicicletaria toda bicicleta deverá ter um atributo de código único, para que seja 
+identificada nas ordens de serviço. Ela também deverá ter um outro atributo que identifique 
+o proprietário. Métodos para anexar ordens de serviço e buscar ordens de serviço anexas à
+bicicleta também poderão ser criados.
+
+P: Suponha você está desenvolvendo um aplicativo que precisará conhecer o conceito "Bicicleta". 
+Quais os atributos e métodos que você poderia incluir na sua classe?
+
+Anotações do professor:
+As respostas não são fixas, segue abaixo uma das possíveis respostas: 
+class Bicicleta{
+String cor;
+String marca;
+String dono;
+Int marchas;
+Float preco;
+
+void pedalar(){}
+void parar(){}
+void definirVelocidade(){}
+void seEquilibrar(){}
+}
+
+P: Explique os seguintes conceitos discutidos em aula: 1.Classe / 2.Instância / 3. Atributo / 4. Método.
+Anotações do professor: ««« Você pode conferir as respostas no seguinte link: http://docs.oracle.com/javase/tutorial/java/concepts/ »»»
+
+
+P: No capítulo anterior, exercício 1, você fez alguns modelos diferentes para bicicletas. Repita o processo considerando triciclos.
+
+Anotações do professor:
+class Triciclo{
+String cor;
+String marca;
+String dono;
+Int marchas;
+Float preco;
+
+void pedalar(){}
+void parar(){}
+void definirVelocidade(){}
+}
+
+
+P: Identifique os atributos e métodos comuns a bicicletas e triciclos. Crie uma classe veículo e refaça seus modelos de modo que bicicleta e 
+triciclo sejam classes filhas da classe veículo.
+class Veiculo{
+String cor;
+String marca;
+String dono;
+Int marchas;
+Float preco;
+
+void pedalar(){}
+void parar(){}
+void definirVelocidade(){}
+}
+
+class Bicicleta extends Veiculo{
+int numeroDeRodas = 2;
+
+void seEquilibrar(){}
+}
+
+class Triciclo extends Veiculo{
+int numeroDeRodas = 3;
+}
