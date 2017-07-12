@@ -22,7 +22,7 @@ import java.util.Scanner;
  * <li>amIOld() should perform the following conditional actions:
  * <ul>
  * <li> if <code>age</code> &lt; 13, print <code>You are young..</code>
- * <li> if <code>age</code> &ge; 13 and <code></code> &lt; 18, print
+ * <li> if <code>age</code> &ge; 13 and <code>age</code> &lt; 18, print
  * <code>You are a teenager..</code>
  * <li> Otherwise, print <code>You are old..</code>
  * </ul>
