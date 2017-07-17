@@ -23,7 +23,8 @@ import java.util.Scanner;
  * <strong>Constraints</strong>
  * <ul><li>1 &le; <em>n</em> &le; 10<sup>6</sup></li></ul>
  *
- * <p<strong>Output Format</strong>
+ * <p>
+ * <strong>Output Format</strong>
  * <br>Print a single base-<em>10</em> integer denoting the maximum number of consecutive
  * <em>1</em>'s in the binary representation of <em>n</em>.</p>
  *
