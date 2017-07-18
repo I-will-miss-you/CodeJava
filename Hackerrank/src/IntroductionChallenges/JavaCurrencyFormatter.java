@@ -1,4 +1,4 @@
-package introduction;
+package IntroductionChallenges;
 
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
