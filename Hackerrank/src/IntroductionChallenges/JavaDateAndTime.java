@@ -17,7 +17,7 @@ import java.util.Scanner;
  * <p>
  * <strong>Input Format</strong>
  * <br>A single line of input containing the space separated month, day and year, respectively, in
- * MM/DD/YYY format.<p>
+ * MM/DD/YYY format.</p>
  *
  * <p>
  * <strong>Constrints</strong>
