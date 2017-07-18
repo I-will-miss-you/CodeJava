@@ -176,8 +176,7 @@ public class Produto {
     /**
      * Verifica se o número de artigos em stock esta abaixo da margem minima.
      *
-     * @return {
-     * @caso true} esteja abaixo do valor mínimo, {@code false} caso contrario.
+     * @return {@code true} esteja abaixo do valor mínimo, {@code false} caso contrario.
      */
     public boolean abaixoMin() {
         return qtdStock < qtdMinima;

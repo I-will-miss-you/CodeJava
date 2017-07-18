@@ -239,7 +239,7 @@ public class MaqVenda {
     /**
      * Total de produtos na máquina
      *
-     * @return
+     * @return total de produtos em máquina
      */
     public int totalProds() {
         int total = 0;
@@ -253,7 +253,7 @@ public class MaqVenda {
      * Devolve sob a forma de uma String toda a informação atual sobre os produtos contidos na
      * máquina
      *
-     * @return
+     * @return String toda a informação dos produtos
      */
     public String prodsMaqTxt() {
         StringBuilder s = new StringBuilder();
@@ -267,7 +267,7 @@ public class MaqVenda {
     /**
      * Devolve sob a forma de uma String toda a informação atual da máquina de venda.
      *
-     * @return
+     * @return tring toda a informação da máquina de venda
      */
     @Override
     public String toString() {

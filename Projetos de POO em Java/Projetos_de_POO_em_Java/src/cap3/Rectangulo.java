@@ -11,7 +11,6 @@ package cap3;
  * <li> Calcular a área do retângulo;
  * <li> Realizar o deslocamento do retângulo em XX e em YY.
  * </ul>
- * </p>
  *
  * @author code36u4r60
  */

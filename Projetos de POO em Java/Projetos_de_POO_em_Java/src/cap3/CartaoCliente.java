@@ -12,7 +12,7 @@ package cap3;
  * <li> Sempre que é atingido um valor múltiplo de 50 pontos, o cliente acumula mais 5 pontos por
  * cada 50, que são acrescentados aos que já tinha no cartão;
  * </ul>
- * </p>
+ *
  * <p>
  * Escrever uma classe {@code CartaoCliente} cujas instâncias exibam este comportamentos e permitam
  * ainda:
@@ -23,7 +23,7 @@ package cap3;
  * <li> Descarregar os pontos de um qualquer cartão para o nosso cartão;
  * <li> Inserir no cartão a informação de uma nova compra de certo valor e atualizar dados;
  * </ul>
- * </p>
+ *
  *
  * @author code36u4r60
  */

@@ -147,7 +147,7 @@ public class ContaPrazo {
     /**
      * Calcular juros atuais, somar ao capital e calcular nova data de cálculo de juros
      *
-     * @param data
+     * @param data data de termino
      */
     public void venceJuros(LocalDate data) {
         int dias = diasEntreDatas(dataInicio, data);
@@ -207,7 +207,7 @@ public class ContaPrazo {
     /**
      * Teste a classe {@code ContaPrazo}
      *
-     * @param args
+     * @param args argumentos
      */
     public static void main(String[] args) {
         ContaPrazo conta = new ContaPrazo("conta1", "titular 1 ", 1460, 15, 1500, LocalDate.of(2017, Month.FEBRUARY, 28));

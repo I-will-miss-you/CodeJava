@@ -130,6 +130,11 @@ public class Ponto2D {
         return p == null ? false : x == p.getX() && y == p.getY();
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        return equals((Ponto2D) obj);
+    }
+
     /**
      * Cria uma cópia do ponto {@code this}
      *
@@ -175,8 +180,9 @@ public class Ponto2D {
     }
 
     /**
+     * Teste da classe
      *
-     * @param args
+     * @param args parametros
      */
     public static void main(String[] args) {
 

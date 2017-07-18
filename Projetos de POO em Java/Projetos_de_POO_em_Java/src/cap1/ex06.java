@@ -14,7 +14,7 @@ public class ex06 {
      * o périmetro respetivos com grande precisão (cinco casa decimais). Usar print() para os
      * resultados. O programa apenas deverá terminar com a leitura de um raio = 0.0.
      *
-     * @param args
+     * @param args parametros
      */
     public static void main(String[] args) {
 
