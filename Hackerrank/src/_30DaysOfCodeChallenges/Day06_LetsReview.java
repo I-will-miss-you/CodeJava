@@ -82,7 +82,7 @@ import java.util.Scanner;
  *
  * @author code36u4r60
  */
-public class Day6_LetsReview {
+public class Day06_LetsReview {
 
     /**
      * @param args the command line arguments

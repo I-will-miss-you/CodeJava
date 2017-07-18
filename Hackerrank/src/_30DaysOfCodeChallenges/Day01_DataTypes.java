@@ -77,7 +77,7 @@ import java.util.Scanner;
  *
  * @author code36u4r60
  */
-public class Day1_DataTypes {
+public class Day01_DataTypes {
 
     /**
      * @param args the command line arguments

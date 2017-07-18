@@ -52,7 +52,7 @@ import java.util.Scanner;
  *
  * @author code36u4r60
  */
-public class Day7_Arrays {
+public class Day07_Arrays {
 
     /**
      * @param args the command line arguments

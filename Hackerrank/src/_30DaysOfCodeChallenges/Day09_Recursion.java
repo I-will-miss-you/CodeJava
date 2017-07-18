@@ -58,7 +58,7 @@ import java.util.Scanner;
  *
  * @author code36u4r60
  */
-public class Day9_Recursion {
+public class Day09_Recursion {
 
     static int factorial(int n) {
         if (n == 0 || n == 1) {

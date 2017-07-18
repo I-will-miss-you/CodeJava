@@ -50,7 +50,7 @@ import java.util.Scanner;
  *
  * @author code36u4r60
  */
-public class Day5_Loops {
+public class Day05_Loops {
 
     /**
      * @param args the command line arguments

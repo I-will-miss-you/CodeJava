@@ -103,7 +103,7 @@ import java.util.Scanner;
  *
  * @author code36u4r60
  */
-public class Day4_Class_Vs_Instance {
+public class Day04_Class_Vs_Instance {
 
     /**
      * @param args the command line arguments

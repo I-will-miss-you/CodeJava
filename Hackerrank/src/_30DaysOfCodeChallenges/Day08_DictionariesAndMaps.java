@@ -88,7 +88,7 @@ import java.util.Scanner;
  *
  * @author code36u4r60
  */
-public class Day8_DictionariesAndMaps {
+public class Day08_DictionariesAndMaps {
 
     /**
      * @param args the command line arguments

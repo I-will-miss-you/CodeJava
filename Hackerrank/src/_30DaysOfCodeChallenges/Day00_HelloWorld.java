@@ -58,7 +58,7 @@ import java.util.Scanner;
  *
  * @author code36u4r60
  */
-public class Day0_HelloWorld {
+public class Day00_HelloWorld {
 
     /**
      * @param args the command line arguments

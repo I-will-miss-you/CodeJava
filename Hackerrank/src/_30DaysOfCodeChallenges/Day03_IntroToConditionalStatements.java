@@ -66,7 +66,7 @@ import java.util.Scanner;
  *
  * @author code36u4r60
  */
-public class Day3_IntroToConditionalStatements {
+public class Day03_IntroToConditionalStatements {
 
     /**
      * @param args the command line arguments
